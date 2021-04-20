@@ -22,7 +22,7 @@ function App() {
     setTodos(updatedTodos);
   };
   return (
-    <div className='App'>
+    <div className='todo-app'>
       <h1>Todo App</h1>
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} toggleComplete={toggleComplete} />
